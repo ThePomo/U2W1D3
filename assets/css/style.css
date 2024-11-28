@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-break: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: #742305;
+}
+
+.prodotto {
+  width: 20%;
+  border-radius: 12px;
+  background-color: #ffdf7e;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin: 3rem;
+  padding: 3rem;
+  background-color: #fff3dc;
+  border-radius: 50px;
+  margin-bottom: 1em;
+}
+
+
+
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0.5em 0;
+  text-align: center;
+}
+.container {
+  padding: 2%;
+}
+
+.header {
+  font-size: 1.8rem;
+  background-color: #fef7e2;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.containerLogo {
+  background-color: #ffdf7e;
+  color: #742305;
+  width: 80%;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.header .menu button {
+  background-color: #ffdf7e;
+  color: #742305;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.bestsellers {
+  padding: 1em;
+}
+
+.bestsellers h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
+
+.product-details button {
+  background-color: #ffdf7e;
+  border: none;
+  color: #742305;
+  padding: 0.5em 1em;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.lastNews {
+  padding: 1em;
+}
+
+.lastNews h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
+
+
+.lastNews article {
+  background-color: #fff3dc;
+  border-radius: 20px;
+  padding: 1em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.lastNews article img {
+  margin-top: 1em;
+  
+}
+
+.lastNews img{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
